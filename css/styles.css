@@ -147,7 +147,7 @@ img {
 
 .section {
   padding: 32px 0 64px;
-  scroll-margin-top: 60px;
+  scroll-margin-top: 20px;
 }
 
 .section-title {
@@ -285,7 +285,7 @@ img {
 
 .home-content {
   grid-template-columns: .5fr 3fr;
-  padding-top: 56px;
+  /* padding-top: 10px; */
   align-items: center;
 }
 
@@ -661,7 +661,7 @@ img {
   }
 
   .home-content {
-    padding-top: 88px;
+    padding-top: 20px;
     column-gap: 32px;
   }
 
@@ -695,7 +695,7 @@ img {
   }
 
   .footer-background {
-    padding: 48px 0 56px;
+    padding: 48px 0 30px;
   }
 
   .footer-links {
