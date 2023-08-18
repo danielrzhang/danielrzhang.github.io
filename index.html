@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- UNICONS -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Daniel Zhang</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">Daniel Zhang</a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list grid">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">
+              <i class="uil uil-estate nav-icon"></i> Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">
+              <i class="uil uil-user nav-icon"></i> About
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#my-projects" class="nav-link">
+              <i class="uil uil-briefcase-alt nav-icon"></i> Projects
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              <i class="uil uil-file-alt nav-icon"></i> Skills
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">
+              <i class="uil uil-scenery nav-icon"></i> Portfolio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact-me" class="nav-link">
+              <i class="uil uil-message nav-icon"></i> Contacts
+            </a>
+          </li>
+        </ul>
+
+        <i class="uil uil-times nav-close" id="nav-close"></i>
+      </div>
+
+      <div class="nav-buttons">
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Main -->
+  <main class="main">
+    <!-- Home -->
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <div class="home-content grid">
+          <div class="home-social">
+            <a href="https://www.linkedin.com/in/danielrzhang/" target="_blank" class="home-social-icon">
+              <i class="uil uil-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/danielrzhang" class="home-social-icon" target="_blank" >
+              <i class="uil uil-github"></i>
+            </a>
+
+            <a href="https://mail.google.com/mail/u/0/?to=danielrzhang@gmail.com&su=&body&fs=1&tf=cm" target="-blank" class="home-social-icon">
+              <i class="uil uil-envelope-alt"></i>
+            </a>
+          </div>
+
+          <div class="home-img">
+            <image class="home-picture" src="res/profile/picture.png">
+          </div>
+
+          <div class="home-data">
+            <h1 class="home-title">Hey there, I'm Daniel Zhang!</h1>
+            <h3 class="home-subtitle">Software Developer</h3>
+            <p class="home-description">CS Student @ University of Waterloo</p>
+
+            <a href="pdf/Resume.pdf" class="button button-flex">
+              Resume <i class="uil uil-download-alt button-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about-me">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-container container grid">
+        <div class="class about-data">
+          <p class="about-description">
+            Hi! I'm Daniel, a 2nd year Computer Science student at the University of Waterloo. As a dedicated software developer, I am passionate about using my coding skills to find innovative solutions to real-world problems.
+          </p>
+          <br>
+          <p class="about-description">
+            Currently, I'm working as a System Support Officer for the Ontario Ministry of the Attorney General. My main responsibilities are deploying new software on client devices and troubleshooting hardware/software issues for 300+ employees across Ontario.
+          </p>
+          <br>
+          <p class="about-description">
+            In my spare time, I enjoy running track, solving LeetCode problems, and tinkering with my Nerf blasters!
+          </p>
+          <br>
+          <p class="about-description">
+            Feel free to drop me a quick message! I'm more than happy to discuss tech or other interesting topics.
+          </p>
+        </div>
+
+        <div class="about-buttons">          
+          <a href="#contact-me" class="button button-flex">
+            Contact Me<i class="uil uil-message button-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="projects-container container grid">
+        <div class="projects-content">
+          <a class="projects-link" href="https://github.com/danielrzhang/weathercast" target="_blank">
+            <img class="projects-image" src="res/projects/weathercast.png">
+            
+            <div class="projects-text">
+              <h3 class="projects-title">Weathercast</h3>
+              <h4 class="projects-subtitle">HTML, CSS, JavaScript</h4>
+              <p class="projects-description">
+                A responsive web app that generates live weather info using OpenWeatherMap API.
+              </p>
+              <br>
+              <p>
+                <a>Try it out here!</a>
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projects-content">
+          <a class="projects-link" href="https://github.com/danielrzhang/currencyXchanger" target="_blank">
+            <img class="projects-image" src="res/projects/currencyXchanger.png">
+          
+            <div class="projects-text">
+              <h3 class="projects-title">currencyXchanger</h3>
+              <h4 class="projects-subtitle">HTML, CSS, JavaScript</h4>
+              <p class="projects-description">
+                A user-friendly web application to check live currency exchange rates using ExchangeRate API.
+              </p>
+              <br>
+              <p>
+                <a>Try it out here!</a>
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projects-content">
+          <a class="projects-link" href="https://github.com/danielrzhang/quizlr" target="_blank">
+            <img class="projects-image" src="res/projects/quizlr.png">
+          
+            <div class="projects-text">
+              <h3 class="projects-title">Quizlr</h3>
+              <h4 class="projects-subtitle">Kotlin, Android Studio</h4>
+              <p class="projects-description">
+                An interactive trivia quiz app with a variety of topics and questions. <br><br> Supports Android 5.0+.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projects-content">
+          <a class="projects-link" href="https://github.com/danielrzhang/zombie-rampage" target="_blank">
+            <img class="projects-image" src="res/projects/zombie-rampage.png">
+          
+            <div class="projects-text">
+              <h3 class="projects-title">Zombie Rampage</h3>
+              <h4 class="projects-subtitle">Java, Swing</h4>
+              <p class="projects-description">
+                A thrilling top-down, zombie shooter. Defeat hordes of zombies in this immersive survival game!
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projects-content">
+          <a class="projects-link" href="https://github.com/danielrzhang/itemize" target="_blank">
+            <img class="projects-image" src="res/projects/itemize.png">
+          
+            <div class="projects-text">
+              <h3 class="projects-title">Itemize</h3>
+              <h4 class="projects-subtitle">Kotlin, Android Studio</h4>
+              <p class="projects-description">
+                A handy Android to-do list app to keep track of your everyday items.<br><br>Supports Android 5.0+.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projects-content">
+          <a class="projects-link" href="https://github.com/danielrzhang/itemize" target="_blank">
+            <img class="projects-image" src="res/projects/calculator-app.png">
+          
+            <div class="projects-text">
+              <h3 class="projects-title">Calculator App</h3>
+              <h4 class="projects-subtitle">.NET, C++, Microsoft Visual Studio</h4>
+              <p class="projects-description">
+                A lightweight Windows calculator app.<br><br>Supports Windows 11, 10, and 8.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>       
+    </section>
+
+    <!-- Skills -->
+
+
+    <!-- Contacts -->
+    <section class="contacts section" id="contact-me">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-container container">
+        <div>
+          <div class="contact-information">
+            <i class="uil uil-envelope-alt contact-icon"></i>
+
+            <div>
+              <h3 class="contact-title">Email</h3>
+              <span class="contact-subtitle">danielrzhang@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-information">
+            <i class="uil uil-map-marker contact-icon"></i>
+
+            <div>
+              <h3 class="contact-title">Location</h3>
+              <span class="contact-subtitle">Richmond Hill, ON, Canada</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact-form grid">
+          <div class="contact-inputs grid">
+            <div class="contact-content">
+              <label for="" class="contact-label">Name</label>
+              <input type="text" class="contact-input">
+            </div>
+
+            <div class="contact-content">
+              <label for="" class="contact-label">Email</label>
+              <input type="Email" class="contact-input">
+            </div>
+
+            <div class="contact-content">
+              <label for="" class="contact-label">Message</label>
+              <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
+            </div>
+
+            <div>
+              <a href="#" class="button button-flex">
+                Send Message
+                <i class="uil uil-message button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-background">
+      <div class="footer-container container grid">
+        <div>
+          <h1 class="footer-title">Daniel Zhang</h1>
+          <span class="footer-subtitle">danielrzhang@gmail.com</span>
+        </div>
+
+        <ul class="footer-links">
+          <li>
+            <a href="#about-me" class="footer-link">About</a>
+          </li>
+          <li>
+            <a href="#my-projects" class="footer-link">Projects</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer-link">Skills</a>
+          </li>
+          <li>
+            <a href="#contact-me" class="footer-link">Contacts</a>
+          </li>
+        </ul>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/danielrzhang/" class="footer-social">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+
+          <a href="https://github.com/danielrzhang" class="footer-social" target="_blank">
+            <i class="uil uil-github-alt"></i>
+          </a>
+
+          <a href="https://www.instagram.com/daniel_.zhang/" class="footer-social" target="_blank">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://twitter.com/astroknowsall" class="footer-social" target="_blank">
+            <i class="uil uil-twitter-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copyright">&#169; 2023 Daniel Zhang</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" class="scroll-up" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup-icon"></i>
+  </a>
+
+  <!-- Swiper JS -->
+  <script src=""></script>
+
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
