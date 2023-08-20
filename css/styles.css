@@ -569,7 +569,7 @@ img {
     grid-template-columns: 0.25fr 3fr;
   }
 
-  .home-img {
+  .home-image {
     width: 180px;
   }
 
@@ -594,7 +594,7 @@ img {
     grid-column: initial;
   }
 
-  .home-img {
+  .home-image {
     order: 1;
     justify-self: center;
   }
@@ -602,7 +602,7 @@ img {
   .projects-container,
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
-  }
+  }  
 }
 
 @media screen and (min-width: 768px) {
@@ -643,10 +643,6 @@ img {
     column-gap: 32px;
   }
 
-  .nav-menu {
-    margin-left: auto;
-  }
-
   .change-theme {
     margin: 0;
   }
@@ -660,7 +656,7 @@ img {
     column-gap: 32px;
   }
 
-  .home-img {
+  .home-image {
     width: 270px;
   }
 
@@ -710,7 +706,7 @@ img {
     padding: 0;
   }
 
-  .home-img {
+  .home-image {
     width: 320px;
   }
 
