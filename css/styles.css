@@ -710,16 +710,12 @@ img {
     padding: 0;
   }
 
-  .footer-container {
-    padding: 0 100px;
-  }
-
   .home-img {
     width: 320px;
   }
 
   .home-social {
-    transform: translateX(-96px);
+    margin-right: 20px;
   }
 
   .projects-container {
@@ -732,5 +728,9 @@ img {
 
   .contact-container {
     width: 840px;
+  }
+  
+  .footer-container {
+    padding: 0 100px;
   }
 }
