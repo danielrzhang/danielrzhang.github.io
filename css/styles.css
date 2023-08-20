@@ -666,6 +666,7 @@ img {
 
   .about-container {
     column-gap: 80px;
+    width: 600px;
   }
 
   .about-description {
@@ -710,11 +711,7 @@ img {
   }
 
   .footer-container {
-    padding: 0 200px;
-  }
-
-  .footer-background {
-    padding: 48px 0 30px;
+    padding: 0 100px;
   }
 
   .home-img {
@@ -731,5 +728,9 @@ img {
 
   .contact-input {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-container {
+    width: 700px;
   }
 }
