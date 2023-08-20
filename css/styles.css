@@ -147,7 +147,7 @@ img {
 
 .section {
   padding: 32px 0 64px;
-  margin: 0 60px;
+  margin: 0 10px;
   scroll-margin-top: 20px;
 }
 
@@ -711,7 +711,7 @@ img {
   }
 
   .home-social {
-    margin-right: 20px;
+    margin: 0 60px 0;
   }
 
   .projects-container {
