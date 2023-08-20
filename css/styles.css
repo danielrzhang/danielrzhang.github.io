@@ -706,6 +706,10 @@ img {
     padding: 0;
   }
 
+  .nav-buttons {
+    margin-right: 30px;
+  }
+
   .home-image {
     width: 320px;
   }
