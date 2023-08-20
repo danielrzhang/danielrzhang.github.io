@@ -583,6 +583,10 @@ img {
   .projects-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .section {
+    scroll-margin-top: 70px;
+  }
 }
 
 @media screen and (min-width: 568px) {
