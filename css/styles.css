@@ -689,10 +689,6 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .footer-background {
-    padding: 48px 0 30px;
-  }
-
   .footer-links {
     flex-direction: column;
     column-gap: 32px;
@@ -709,9 +705,16 @@ img {
 
 @media screen and (min-width: 1024px) {
   .header,
-  .main,
-  .footer-container {
+  .main {
     padding: 0;
+  }
+
+  .footer-container {
+    padding: 0 200px;
+  }
+
+  .footer-background {
+    padding: 48px 0 30px;
   }
 
   .home-img {
