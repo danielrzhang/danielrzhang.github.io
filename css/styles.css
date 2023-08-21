@@ -670,7 +670,7 @@ img {
 
   .about-container {
     column-gap: 80px;
-    width: 600px;
+    max-width: 600px;
   }
 
   .about-description {
@@ -722,6 +722,11 @@ img {
     width: 320px;
   }
 
+  .home-content {
+    max-width: 1000px;
+    justify-content: center;
+  }
+
   .home-social {
     margin: 0 60px 0;
   }
@@ -735,11 +740,11 @@ img {
   }
 
   .contact-container {
-    width: 840px;
+    max-width: 840px;
   }
   
   .footer-container {
     padding: 0 100px;
-    width: 1200px;
+    max-width: 1200px;
   }
 }
