@@ -570,7 +570,7 @@ img {
   }
 
   .home-image {
-    width: 180px;
+    width: 120px;
   }
 
   .projects-container {
@@ -716,6 +716,13 @@ img {
 
   .nav-buttons {
     margin-right: 30px;
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
 
   .home-image {
