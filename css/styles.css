@@ -621,6 +621,7 @@ img {
 
   .section {
     padding: 96px 0 32px;
+    scroll-margin-top: 40px;
   }
 
   .header {
