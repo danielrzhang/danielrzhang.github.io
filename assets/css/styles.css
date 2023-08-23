@@ -69,8 +69,6 @@ body {
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: white;
-  --shadow-color: rgba(0, 0, 0, 0.15);
-  --shadow-color-hover: rgba(0, 0, 0, 0.35);
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -83,8 +81,6 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 40%);
   --scroll-bar-thumb-color: hsl(var(--hue-color), 12%, 90%);
-  --shadow-color: rgba(255, 255, 255, 0.15);
-  --shadow-color-hover: rgba(255, 255, 255, 0.35);
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -373,14 +369,14 @@ img {
 .projects-content {
   position: relative;
   background-color: var(--container-color);
-  box-shadow: 0 2px 4px var(--shadow-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: 0.2s;
   border-radius: 15px;
   overflow: hidden;
 }
 
 .projects-content:hover {
-  box-shadow: 0 4px 8px var(--shadow-color-hover);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
   transform: translate(0, -7px);
   cursor: pointer;
 }
@@ -432,7 +428,7 @@ img {
 .skills-content {
   position: relative;
   background-color: var(--container-color);
-  box-shadow: 0 2px 4px var(--shadow-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: 0.2s;
   border-radius: 40px;
   display: flex;
@@ -440,7 +436,7 @@ img {
 }
 
 .skills-content:hover {
-  box-shadow: 0 3px 5px var(--shadow-color-hover);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.35);
   transform: translate(0, -4px);
   cursor: pointer;
 }
