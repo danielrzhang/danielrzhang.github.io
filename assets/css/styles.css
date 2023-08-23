@@ -570,7 +570,7 @@ img {
 }
 
 .show-scroll {
-  bottom: 80px;
+  bottom: 16px;
 }
 
 ::-webkit-scrollbar {
