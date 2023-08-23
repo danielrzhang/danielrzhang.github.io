@@ -69,6 +69,7 @@ body {
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: white;
+
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -407,6 +408,15 @@ img {
   margin-bottom: var(--mb-1);
   font-weight: normal;
   font-style: italic;
+}
+
+.projects-demo {
+  font-weight: bold;
+  color: var(--first-color);
+}
+
+.projects-demo:hover {
+  text-decoration: underline;
 }
 
 .contact-information {
