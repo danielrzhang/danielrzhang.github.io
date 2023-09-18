@@ -446,6 +446,29 @@ img {
   padding: 15px;
 }
 
+.future-container {
+  overflow: initial;
+}
+
+.future-content {
+  padding: 0 24px;
+}
+
+.future-image {
+  width: 265px;
+  border-radius: 8px;
+  justify-self: center;
+}
+
+.future-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.future-description {
+  margin-bottom: var(--mb-0-75);
+}
+
 .contact-information {
   display: flex;
   margin-bottom: var(--mb-2);
