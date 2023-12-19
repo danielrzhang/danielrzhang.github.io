@@ -359,6 +359,71 @@ img {
 .about-buttons {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.experience-job {
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.experience-timeline {
+  flex: 1;
+}
+
+.experience-rounder {
+  display: flex;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.experience-line {
+  display: flex;
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(6px);
+}
+
+.experience-image-container {
+  padding-left: 30px;
+}
+
+.experience-image {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.experience-text {
+  flex: 200;
+  padding-left: 30px;
+}
+
+.experience-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.experience-subtitle {
+  font-size: var(--h4-font-size);
+  font-weight: normal;
+}
+
+.experience-location {
+  font-size: var(--normal-font-size);
+  font-style: italic;
+}
+
+.experience-calendar {
+  font-size: var(--normal-font-size);
+}
+
+.experience-description {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .projects-container {
@@ -620,6 +685,23 @@ img {
     grid-template-columns: min-content;
     justify-content: center;
   }
+
+  .experience-job {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .experience-image-container {
+    padding-left: 0px;
+  }
+
+  .experience-image {
+    width: 40px;
+  }
+
+  .experience-text {
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -633,6 +715,23 @@ img {
 
   .section {
     scroll-margin-top: 70px;
+  }
+
+  .experience-job {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .experience-image-container {
+    padding-left: 20px;
+  }
+
+  .experience-image {
+    width: 45px;
+  }
+
+  .experience-text {
+    padding-left: 20px;
   }
 }
 
@@ -661,6 +760,23 @@ img {
 
   .section {
     scroll-margin-top: 70px;
+  }
+
+  .experience-job {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .experience-image-container {
+    padding-left: 20px;
+  }
+
+  .experience-image {
+    width: 50px;
+  }
+
+  .experience-text {
+    padding-left: 20px;
   }
 }
 
@@ -735,6 +851,23 @@ img {
 
   .about-buttons {
     justify-content: center;
+  }
+
+  .experience-job {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .experience-image-container {
+    padding-left: 30px;
+  }
+
+  .experience-image {
+    width: 70px;
+  }
+
+  .experience-text {
+    padding-left: 30px;
   }
 
   .projects-container {
@@ -814,5 +947,9 @@ img {
   .footer-container {
     padding: 0 100px;
     max-width: 1200px;
+  }
+
+  .experience-job {
+    max-width: 800px;
   }
 }
