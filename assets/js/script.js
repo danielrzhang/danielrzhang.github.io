@@ -85,16 +85,3 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme())
   localStorage.setItem("selected-icon", getCurrentIcon())
 })
-
-var swiper = new Swiper('.future-container', {
-  cssMode: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  pagination: {
-    el: '.swiper-pagination'
-  },
-  mousewheel: true,
-  keyboard: true,
-})
