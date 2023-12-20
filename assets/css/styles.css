@@ -554,6 +554,7 @@ img {
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
+  resize: vertical;
   padding: 4px 8px 8px 0;
 }
 
