@@ -927,6 +927,10 @@ img {
     margin: 0 60px 0;
   }
 
+  .experience-container {
+    max-width: 800px;
+  }
+
   .projects-container {
     grid-template-columns: repeat(3, 300px);
   }
@@ -947,9 +951,5 @@ img {
   .footer-container {
     padding: 0 100px;
     max-width: 1200px;
-  }
-
-  .experience-job {
-    max-width: 800px;
   }
 }
