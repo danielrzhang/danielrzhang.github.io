@@ -548,6 +548,10 @@ img {
   border-radius: 8px;
 }
 
+.contact-content.error {
+  border-color: var(--error-color);
+}
+
 .contact-label {
   font-size: var(--normal-font-size);
   color: var(--title-color);
@@ -565,10 +569,13 @@ img {
   padding: 4px 8px 8px 0;
 }
 
+.contact-content.error .error-txt {
+  display: block;
+}
+
 .error-txt {
   font-size: var(--normal-font-size);
   color: var(--error-color);
-  margin: -20px 0 10px;
   display: none;
 }
 
