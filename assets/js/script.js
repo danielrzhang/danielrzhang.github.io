@@ -85,3 +85,53 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme())
   localStorage.setItem("selected-icon", getCurrentIcon())
 })
+
+const form = document.querySelector("form");
+const fullName = document.getElementById("name");
+const email = document.getElementById("email");
+const subject = document.getElementById("subject");
+const msg = document.getElementById("message");
+
+function sendEmail() {
+  const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Subject: ${subject.value}<br> Message: ${msg.value}`;
+
+  Email.send({
+    SecureToken : "b4f1dbca-93a9-4777-8423-eee53839a7ab",
+    To : 'danielrzhang@gmail.com',
+    From : "danielrzhang@gmail.com",
+    Subject : subject.value,
+    Body : bodyMessage
+  }).then(
+    message => {
+      if (message == "OK") {
+        Swal.fire({
+          background: "var(--body-color)",
+          color: "var(--text-color)",
+          confirmButtonColor: "var(--first-color)",
+          iconColor: "var(--correct-color)",
+          title: "Success!",
+          text: "Your email has been sent.",
+          icon: "success"
+        });
+      }
+    }
+  );
+}
+
+function checkInputs() {
+  const items = document.querySelectorAll(".contact-input");
+  console.log(items.length);
+
+  for (const item of items) {
+    if (item.value == "") {
+      item.classList.add("error");
+      item.parentElement.classList.add("error");
+    }
+  }
+}
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  checkInputs();
+  // sendEmail();
+})

@@ -467,23 +467,28 @@
           <div class="contact-inputs grid">
             <div class="contact-content">
               <label for="" class="contact-label">Name</label>
-              <input type="text" class="contact-input">
+              <input type="text" class="contact-input" id="name" autocomplete="off">
             </div>
+            <div class="error-txt">You must fill in your full name</div>
+
 
             <div class="contact-content">
               <label for="" class="contact-label">Email</label>
-              <input type="email" class="contact-input">
+              <input type="email" class="contact-input" id="email" autocomplete="off">
             </div>
+            <div class="error-txt">You must fill in your email</div>
 
             <div class="contact-content">
               <label for="" class="contact-label">Subject</label>
-              <input type="text" class="contact-input">
+              <input type="text" class="contact-input" id="subject" autocomplete="off">
             </div>
+            <div class="error-txt">You must fill in the email subject</div>
 
             <div class="contact-content">
               <label for="" class="contact-label">Message</label>
-              <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
+              <textarea cols="0" rows="7" class="contact-input" id="message" autocomplete="off"></textarea>
             </div>
+            <div class="error-txt">You must fill in a message</div>
 
             <div>
               <button class="button button-flex">
@@ -557,6 +562,11 @@
 
   <!-- Main JS -->
   <script src="/assets/js/script.js"></script>
-  </script>
+
+  <!-- Email JS -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!-- Alert JS -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

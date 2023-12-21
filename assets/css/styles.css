@@ -16,6 +16,8 @@
   --container-color: white;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-bar-thumb-color: hsl(var(--hue-color), 12%, 40%);
+  --error-color: hsl(4, 71%, 50%);
+  --correct-color: hsl(101, 78%, 41%);
 
   --body-font: 'Poppins', sans-serif;
 
@@ -547,7 +549,7 @@ img {
 }
 
 .contact-label {
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   color: var(--title-color);
 }
 
@@ -561,6 +563,13 @@ img {
   outline: none;
   resize: vertical;
   padding: 4px 8px 8px 0;
+}
+
+.error-txt {
+  font-size: var(--normal-font-size);
+  color: var(--error-color);
+  margin: -20px 0 10px;
+  display: none;
 }
 
 .footer {
